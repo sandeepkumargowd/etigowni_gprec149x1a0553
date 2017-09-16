@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	Date date=Calendar.getInstance().getTime();
 	System.out.println(""+date.getHours());
 	
-	Student std=new Student(1, "sandeep", date, 63.5d);
+	Student std=new Student(1, "venkat", date, 73.6d);
 	
 	
 	
