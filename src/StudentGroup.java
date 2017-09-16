@@ -1,4 +1,4 @@
-package test;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -29,6 +29,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudents() {
 		// Add your implementation here
+                
 		return students;
 	}
 
@@ -226,7 +227,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	
 	// new method defined 
-public List<Student> getStudentList(Student[] stds){
+        public List<Student> getStudentList(Student[] stds){
 	List<Student> stdlist=new ArrayList<Student>();
 	for(int i=0;i<stds.length;i++){
 		stdlist.add(stds[i]);
